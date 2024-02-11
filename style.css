@@ -161,3 +161,21 @@ header .navigation a:hover {
     display: none;
   }
 }
+
+label {
+  display: block;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+label:hover {
+  color: #fff;
+}
+
+label .close-btn {
+  display: none;
+}
+
+label .menu-btn {
+  position: absolute;
+}
