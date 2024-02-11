@@ -179,3 +179,15 @@ label .close-btn {
 label .menu-btn {
   position: absolute;
 }
+
+.content .info h2 {
+  font-size: 45px;
+  line-height: 50px;
+}
+
+.content .info p {
+  font-size: 16;
+  font-weight: 500;
+  color: rgb(216, 217, 218);
+  margin-bottom: 40px;
+}
