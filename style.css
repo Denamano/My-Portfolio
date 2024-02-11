@@ -17,3 +17,13 @@ section {
   background-size: cover;
   background-position: center;
 }
+
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
