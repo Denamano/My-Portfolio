@@ -155,3 +155,9 @@ header .navigation a:hover {
   display: block;
   position: fixed;
 }
+
+@media (max-width: 960px) {
+  header .navigation {
+    display: none;
+  }
+}
