@@ -95,3 +95,27 @@ header .navigation a:hover {
 .content .info-btn:hover {
   background: rgb(19, 17, 17);
 }
+
+.media-icons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.media-icons a:not(:last-child) {
+  margin-right: 60px;
+}
+
+.media-icons a {
+  position: relative;
+  color: rgb(15, 15, 16);
+  font-size: 25px;
+  transition: 0.3s;
+  transition-property: all;
+}
+
+.media-icons a:hover {
+  transform: scale(1.5);
+}
