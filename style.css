@@ -36,3 +36,15 @@ header .logo {
   font-weight: 800;
   letter-spacing: 1px;
 }
+
+header .navigation a {
+  /* color: #000; */
+  color: rgb(246, 243, 243);
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
