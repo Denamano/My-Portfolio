@@ -123,7 +123,7 @@ header .navigation a:hover {
   transform: scale(1.5);
 }
 
-#check:checked ~ header .navigation {
+/*#check:checked ~ header .navigation {
   z-index: 2;
   position: fixed;
   background: rgba(224, 223, 226, 0.637);
@@ -157,11 +157,31 @@ header .navigation a:hover {
   z-index: 2;
   display: block;
   position: fixed;
-}
+}*/
 
 @media (max-width: 960px) {
   header .navigation {
     display: none;
+  }
+
+  header label {
+    display: block;
+  }
+
+  header label .menu-btn {
+    display: inline-block;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .main-content {
+    flex-direction: column;
   }
 }
 
@@ -201,11 +221,20 @@ body {
   overflow-x: hidden;
 }
 
-.container {
-  /*margin: 0;*/
-  /*min-height: 100vh;*/
+body.conpage {
+  margin: 0;
+  min-height: 100vh;
   letter-spacing: 2px;
   display: flex;
-  align-items: right;
-  /*background: #c9ced3;*/
+  align-items: center;
+  background: #c9ced3;
+}
+
+.container {
+  width: 480px;
+  height: 630px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
