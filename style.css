@@ -240,3 +240,16 @@ body.conpage {
   border-radius: 10px;
   box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.4);
 }
+
+form {
+  width: 90%;
+}
+
+.form-group {
+  height: 65px;
+}
+
+.form-label {
+  position: relative;
+  bottom: 3px;
+}
