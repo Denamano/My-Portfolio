@@ -263,6 +263,7 @@ input {
   border-radius: 5px;
   outline: none;
   box-sizing: border-box;
+  transition: all 0.3s;
 }
 
 input:valid {
@@ -271,4 +272,8 @@ input:valid {
 
 input:invalid {
   border: 1px solid red;
+}
+
+button {
+  cursor: pointer;
 }
