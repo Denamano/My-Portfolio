@@ -4,10 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="conpage">
@@ -36,17 +32,20 @@
         <form id="form">
           <div class="form-group">
             <label for="name" class="form-label">Full Name</label>
-            <input type="text" id="name" placeholder="Full Name" />
+            <input type="text" id="name" placeholder="Full Name" 
+                   required>
           </div>
 
           <div class="form-group">
             <label for="phone" class="form-label">Phone Number</label>
-            <input type="tel" id="phone" placeholder="555-555-5555" />
+            <input type="tel" id="phone" placeholder="555-555-5555" 
+                   required>
           </div>
 
           <div class="form-group">
             <label for="email" class="form-label">Email Address</label>
-            <input type="email" id="email" placeholder="email@address.com" />
+            <input type="email" id="email" placeholder="email@address.com" 
+                   required>
           </div>
 
           <div class="form-group">
@@ -55,7 +54,7 @@
               type="url"
               id="website"
               placeholder="https://www.itonlinelearning.com/"
-            />
+                   required>
           </div>
 
           <div class="form-group">
@@ -64,7 +63,7 @@
               type="password"
               id="password1"
               placeholder="Create Password"
-            />
+                   required>
           </div>
 
           <div class="form-group">
@@ -73,7 +72,7 @@
               type="password"
               id="password2"
               placeholder="Confirm Password"
-            />
+                   required>
           </div>
           <button type="submit">Register</button>
         </form>

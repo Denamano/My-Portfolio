@@ -295,3 +295,13 @@ button:hover {
 button:focus {
   outline: none;
 }
+
+/*.message-container {
+  border: ipx solid black;
+  border-radius: 5px;
+  width: 90%;
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  color: black;
+}*/
