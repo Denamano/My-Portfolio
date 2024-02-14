@@ -276,4 +276,22 @@ input:invalid {
 
 button {
   cursor: pointer;
+  color: white;
+  background: black;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+button:hover {
+  filter: brightness(200%);
+  background: rgb(22, 22, 22);
+}
+
+button:focus {
+  outline: none;
 }
