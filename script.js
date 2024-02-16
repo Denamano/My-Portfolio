@@ -33,9 +33,23 @@ function validateForm() {
   }
 }
 
+function storeFormData() {
+  const user = {
+    name: form.name.value,
+    phone: form.phone.value,
+    email: form.email.value,
+    website: form.website.value,
+    password: form.password.value,
+  };
+  console.log(user);
+}
+
 function processFormData(e) {
   e.preventDefault();
   validateForm();
+  if (isValid && passwordsMatch) {
+    storeFormData();
+  }
 }
 
 form.addEventListener("submit", processFormData);
